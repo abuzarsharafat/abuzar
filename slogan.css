@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+.slogan {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: end;
+    position: static;
+    right: 100px;
+}
+.h1t {
+    font-size: 72px;
+    width: 400px;
+    text-align: right;
+    margin-right: 280px;
+    margin-top: 30px;
+    font-family: 'Cabin Sketch', sans-serif;
+    outline-width: 5px;
+    text-shadow:    1px 1px 0 #000;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(16, 16, 16);
+    padding-right: 10px;
+   
+    
+}
+
+.h1m {
+
+font-size: 40px;
+width: 120px;
+margin-right: 280px;
+text-align: right;
+outline-width: 5px;
+text-shadow:     1px 1px 0 #000;
+font-family: 'Cabin Sketch', sans-serif;
+background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(16, 16, 16);
+    padding-right: 10px;
+}
+
+.h1b {
+    font-size: 72px;
+    width: 400px;
+    margin-right: 280px;
+    text-align: right;
+    text-shadow:  1px 1px 0 #000;
+    font-family: 'Cabin Sketch', sans-serif;
+    outline-width: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(16, 16, 16);
+    padding-right: 10px;
+}
+

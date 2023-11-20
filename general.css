@@ -1,0 +1,13 @@
+body {
+    
+    background-image:url(background3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right 0px;
+
+    
+}
+
+html {
+    padding-bottom: 300px;
+}

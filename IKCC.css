@@ -1,0 +1,47 @@
+body {
+    
+    background: url(contact-background.jpg) ;
+    background-repeat: repeat;
+    background-position: right 0px;
+    background-size: 100%;
+
+    
+}
+
+.flex {
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+}
+.flex-heading {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 600px;
+    line-height: 30px;
+    flex: 1;
+}
+
+.flex-image {
+    width: 100px;
+    margin-right: 200px;
+    
+}
+
+.flex-image img {
+    width: 150px;
+    border-radius: 10px;
+
+}
+.contact-details {
+    margin-left: 100px;
+    width: 600px;
+    
+}
+.message-box {
+    height: 100px;
+}
+

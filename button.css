@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 110px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+    transition: width 0.3s ease;
+    z-index: 1000;
+}
+.sidebar:hover {
+    width: 260px;
+}
+.sidebar .logo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 0px;
+}
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+.logo img {
+    
+    border: 5px solid transparent; /* Add a transparent border */
+    border-radius: 50%; /* Makes the image round (for a circle effect) */
+    animation: glow 2s infinite; /* Apply the glow animation */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #fff; /* Initial shadow color and size */
+    }
+    50% {
+        box-shadow: 0 0 00px #00f, 0 0 00px #00f; /* Glowing shadow color and size */
+        /* 0 0 20px & 0 0 30px for blue glow */
+    }
+    100% {
+        box-shadow: 0 0 10px #fff; /* Return to the initial shadow */
+    }
+}
+
+
+
+
+
+.logo h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-left: 15px;
+    display: none;
+}
+.sidebar:hover .logo h2 {
+    display: block;
+}
+.sidebar .links {
+    list-style: none;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: 100%;
+}
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
+.links li {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+}
+.links li:hover {
+    cursor: pointer;
+    background: #fff;
+}
+.links h4 {
+    color: #222;
+    font-weight: 500;
+    display: none;
+    margin-bottom: 10px;
+}
+.sidebar:hover .links h4 {
+    display: block;
+}
+.links hr {
+    margin: 10px 8px;
+    border: 2px solid #ff7426;
+}
+
+.links li span {
+    padding: 10px 10px;
+    font-size: 20px; 
+    /* 30px will increase gap between elements of list */
+}
+.links li a {
+    padding: 10px;
+    color: #000;
+    display: none;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sidebar:hover .links li a {
+    display: block;
+}
+.links .logout-link {
+    margin-top: 20px;
+}
+
+
+.sidebar-icons {
+    width: 35px;
+   margin-left: 5px;
+    
+}

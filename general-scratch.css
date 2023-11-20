@@ -1,0 +1,37 @@
+body {
+    
+    background: url(contact-background.jpg) ;
+    background-repeat: repeat;
+    background-position: right 0px;
+    background-size: 100%;    
+}
+
+.flex {
+    margin-left: 80px;
+    margin-top: 0px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+
+}
+.content-flex {
+    padding-top: 50px;
+    flex: 1;
+}
+.scratch-image {
+    width: 100px;
+    margin-right: 200px;
+    
+}
+
+.scratch-image img {
+    width: 150px;
+    border-radius: 10px;
+
+}
+.scratch-details {
+    margin-left: 100px;
+    width: 600px;
+    
+}
